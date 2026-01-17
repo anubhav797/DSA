@@ -2,7 +2,7 @@ class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
 
-        //similar to lower bound (smallest index which satisfies arr[i] > target and returns the index where it should be isnerted)
+        //similar to lower bound (smallest index which satisfies arr[i] > target and returns the index where it should be inserted)
         int n = nums.size();
          int low = 0 ;
          int high = n-1;
